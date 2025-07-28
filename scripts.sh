@@ -141,6 +141,13 @@ tximportData
 WES.1KG.WUGSC
 
 
+
+### Different machine.  MEAT0 is on the primary builder
+## for data experiment this is nebbiolo2
+## for software this is bbscentral2
+
+ssh biocbuild@149.165.152.87
+
 ##########################################
 ##
 ## Workflows
@@ -150,12 +157,16 @@ WES.1KG.WUGSC
 cd bbs-3.22-workflows/meat
 find . -size +100M -ls
 
- 21925076 110544 -rwxrwxr-x   1 biocbuild biocbuild 113193462 Apr 11 12:46 ./methylationArrayAnalysis/inst/extdata/ageData.RData
- 21758148 223832 -rw-r--r--   1 biocbuild biocbuild 229198511 Jul  1 13:19 ./methylationArrayAnalysis_1.33.1.tar.gz
+  2887028 241072 -r--r--r--   1 biocbuild biocbuild 246850494 Apr 11 12:47 ./spicyWorkflow/.git/objects/pack/pack-5b92b0ead4ed26714b520b351f4109e64ffab29b.pack
+  2895233 199612 -r--r--r--   1 biocbuild biocbuild 204402435 Jun 20 12:45 ./seqpac/.git/objects/pack/pack-5b09bd1daae936c6f7f549888ddcccf3ad91f2a0.pack
+  2884534 110544 -rwxrwxr-x   1 biocbuild biocbuild 113193462 Apr 11 12:46 ./methylationArrayAnalysis/inst/extdata/ageData.RData
+  2884470 109744 -r--r--r--   1 biocbuild biocbuild 112374261 Apr 11 12:46 ./methylationArrayAnalysis/.git/objects/20/c84eaff9b0e3f337c61aab9cd5eba330e0231d
 
 find . -size +100M -ls | cut -d'/' -f2 | sort -u
 
 methylationArrayAnalysis
+seqpac
+spicyWorkflow
 
 
 
@@ -169,25 +180,34 @@ cd /bbs-3.22-bioc/meat
 
 find . -size +100M -ls
 
- 26263259 102876 -rw-rw-r--   1 biocbuild biocbuild 105343816 Jul  2 16:07 ./BASiCStan/src/stanExports_basics_regression_nospikes.o
- 26263279 104772 -rwxrwxr-x   1 biocbuild biocbuild 107281784 Jul  2 16:07 ./BASiCStan/src/BASiCStan.so
- 26263143 117888 -rw-rw-r--   1 biocbuild biocbuild 120712960 Jul  2 16:05 ./BASiCStan/src/stanExports_basics_regression.o
- 26381613 163220 -rwxrwxr-x   1 biocbuild biocbuild 167130872 Jul  2 15:38 ./IgGeneUsage/src/IgGeneUsage.so
- 26503809 300804 -rw-rw-r--   1 biocbuild biocbuild 308016296 Apr  4 14:43 ./SwathXtend/inst/files/Swath_result_ext.xlsx
- 26641103 110380 -rwxrwxr-x   1 biocbuild biocbuild 113022920 Jul  2 15:24 ./beachmat/src/beachmat.so
- 26874057 114776 -rwxrwxr-x   1 biocbuild biocbuild 117524840 Jul  2 15:26 ./mzR/src/mzR.so
- 26873404 120888 -rw-rw-r--   1 biocbuild biocbuild 123788520 Jul  2 15:15 ./ppcseq/src/stanExports_negBinomial_MPI.o
- 27032945 116276 -rwxrwxr-x   1 biocbuild biocbuild 119058528 Jul  2 15:30 ./scrapper/src/scrapper.so
- 26269870 354796 -rw-r--r--   1 biocbuild biocbuild 363304295 Jul  2 19:41 ./SwathXtend_2.31.0.tar.gz
+ 26117307 549200 -r--r--r--   1 biocbuild biocbuild 562375650 Jul 26 10:03 ./netZooR/.git/objects/pack/pack-a9e850008f849f5344562b02d9637b62728b8462.pack
+   418146 778928 -r--r--r--   1 biocbuild biocbuild 797615255 Jun 24 13:36 ./singleCellTK/.git/objects/pack/pack-d88522bfb140361f45c5ceb0dd546612f9e1d557.pack
+ 26116923 177160 -r--r--r--   1 biocbuild biocbuild 181410488 Jul  7 13:34 ./epistasisGA/.git/objects/pack/pack-12d49b2595aeebf8f94dff93b94cd9e19efbc31f.pack
+ 25334981 246888 -r--r--r--   1 biocbuild biocbuild 252812528 Jul 18 13:30 ./microbiome/.git/objects/pack/pack-a16d03facbdd50d51102f5afca043cc17d0bc8fa.pack
+ 25963441 182884 -r--r--r--   1 biocbuild biocbuild 187271774 Jul  2 13:33 ./msqrob2/.git/objects/pack/pack-05654f62956a9bab0bde92319fee4a2ece021a56.pack
+ 25693263 254404 -r--r--r--   1 biocbuild biocbuild 260508117 Jun 23 13:33 ./BioTIP/.git/objects/pack/pack-c8791070979d8828d51cdcb35509c7bc4503c557.pack
+ 25824485 201068 -r--r--r--   1 biocbuild biocbuild 205890246 Jul  8 13:32 ./proActiv/.git/objects/pack/pack-13d4eaa08510268c4cea310c140f9f8ab44c07bf.pack
+   165864 237620 -r--r--r--   1 biocbuild biocbuild 243317019 Apr 25 13:10 ./dreamlet/.git/objects/pack/pack-c7b294e277a8c1365005d23c6c632687627dd549.pack
+ 25855438 117648 -r--r--r--   1 biocbuild biocbuild 120464250 May 27 13:32 ./scRepertoire/.git/objects/pack/pack-00e392df84a5c5c768a7ba3aea5055fa69edf21e.pack
+   165300 265180 -r--r--r--   1 biocbuild biocbuild 271537782 Jun 27 13:35 ./GenomicPlot/.git/objects/pack/pack-a48a26d8ba562f4f18a3d1cecedbc78d0b6ed91e.pack
+ 25177461 300804 -rw-rw-r--   1 biocbuild biocbuild 308016296 Apr  4 14:43 ./SwathXtend/inst/files/Swath_result_ext.xlsx
+ 25177334 297608 -r--r--r--   1 biocbuild biocbuild 304742935 Apr  4 14:43 ./SwathXtend/.git/objects/83/5bed905ed8d4fee8ddd6f7d41f8ed3ff3440e0
+ 24666620 202128 -r--r--r--   1 biocbuild biocbuild 206973025 Apr  4 14:41 ./erma/.git/objects/pack/pack-639fa815cfe7217b8968867f6a248021673aa683.pack
+ 25855312 227252 -r--r--r--   1 biocbuild biocbuild 232698867 Jul 26 10:02 ./musicatk/.git/objects/pack/pack-3027585e853ec2f9c5db98f8e35c9aeaf813e753.pack
 
  
 find . -size +100M -ls | cut -d'/' -f2 | sort -u
 
-BASiCStan
-beachmat
-IgGeneUsage
-mzR
-ppcseq
-scrapper
+BioTIP
+GenomicPlot
 SwathXtend
-SwathXtend_2.31.0.tar.gz
+dreamlet
+epistasisGA
+erma
+microbiome
+msqrob2
+musicatk
+netZooR
+proActiv
+scRepertoire
+singleCellTK

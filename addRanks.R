@@ -11,7 +11,7 @@ pkg_tbl$pkgType <- recode(pkg_tbl$Repo,
                           "annotation" = "data-annotation")  # Add more if needed
 
 results <- mapply(
-  function(pkg, type) pkgDownloadRank(pkg = pkg, pkgType = type),
+  function(pkg, type){ message(pkg); pkgDownloadRank(pkg = pkg, pkgType = type, version="3.21")},
   pkg_tbl$Package,
   pkg_tbl$pkgType,
   SIMPLIFY = FALSE
