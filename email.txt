@@ -1,0 +1,45 @@
+Dear Package Maintainer,
+
+We have identified remnants of large files inside your repository. This is
+problematic as Bioconductor explores alternative routes for hosting package
+source code and build products.
+
+As the files have been removed, we will perform the necessary steps to clean the
+git history of the large file remnants. We will do this for you as it will also
+require a force push against the current git repository which only current
+Bioconductor Core Team members can perform on git.bioconductor.org.
+
+Using a `git -force` will invalidate any local checkouts of the
+repository. Anyone that has previously checked out the git.bioconductor.org
+respository should either reclone or would need to perform a `git reset --hard`
+followed by a `git pull` against the Bioconductor remote and branch.
+
+If there are any concerns or further questions please reach out to
+maintainer@bioconductor.org
+
+Thank you.
+
+
+
+
+Dear Package Maintainer,
+
+We have identified large files inside your repository. This is problematic as
+Bioconductor explores alternateive routes for hosting package source code and
+build products.
+
+Large files should be removed from the package and distributed through other
+means such as hosting on zenodo and using ExperimentHub or BiocFileCache or
+other caching mechanisms to control the download.  
+Failure to remove the large files will result in your package being deprecated
+and removed from Bioconductor. 
+
+Some helpful links:
+https://zenodo.org/
+https://www.bioconductor.org/packages/release/bioc/html/ExperimentHub.html
+https://www.bioconductor.org/packages/release/bioc/html/BiocFileCache.html
+
+If there are any concerns or further questions please reach out to
+maintainer@bioconductor.org
+
+Thank you.
