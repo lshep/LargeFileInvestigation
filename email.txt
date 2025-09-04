@@ -4,10 +4,13 @@ We have identified remnants of large files inside your repository. This is
 problematic as Bioconductor explores alternative routes for hosting package
 source code and build products.
 
-As the files have been removed, we will perform the necessary steps to clean the
-git history of the large file remnants. We will do this for you as it will also
-require a force push against the current git repository which only current
-Bioconductor Core Team members can perform on git.bioconductor.org.
+This is a result of a large file at one point being checked into git. The file
+has since been removed by you but the historical reference of the large file
+remains in the git history as a hidden `.git/pathtofile` reference. We will
+perform the necessary steps to clean the git history of the large file
+remnants. We will do this for you as it will also require a force push against
+the current git repository which only current Bioconductor Core Team members can
+perform on git.bioconductor.org.
 
 Using a `git -force` will invalidate any local checkouts of the
 repository. Anyone that has previously checked out the git.bioconductor.org
