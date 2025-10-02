@@ -6,19 +6,19 @@ source code and build products.
 
 This is a result of a large file at one point being checked into git. The file
 has since been removed by you but the historical reference of the large file
-remains in the git history as a hidden `.git/pathtofile` reference. We will
-perform the necessary steps to clean the git history of the large file
-remnants. We will do this for you as it will also require a force push against
-the current git repository which only current Bioconductor Core Team members can
-perform on git.bioconductor.org.
+remains in the git history. We will perform the necessary steps to clean the git
+history of the large file remnants. We will do this for you as it will also
+require a force push against the current git repository which only current
+Bioconductor Core Team members can perform on git.bioconductor.org.
 
 Using a `git -force` will invalidate any local checkouts of the
 repository. Anyone that has previously checked out the git.bioconductor.org
 respository should either reclone or would need to perform a `git reset --hard`
 followed by a `git pull` against the Bioconductor remote and branch.
 
-If there are any concerns or further questions please reach out to
-maintainer@bioconductor.org
+We will begin to clean repositories Novemeber 1st and will contact you when we
+have performed the action on your package. If there are any concerns or further
+questions  please reach out to maintainer@bioconductor.org before November 1.
 
 Thank you.
 
@@ -28,19 +28,21 @@ Thank you.
 Dear Package Maintainer,
 
 We have identified large files inside your repository. This is problematic as
-Bioconductor explores alternateive routes for hosting package source code and
+Bioconductor explores alternative routes for hosting package source code and
 build products.
 
 Large files should be removed from the package and distributed through other
 means such as hosting on zenodo and using ExperimentHub or BiocFileCache or
 other caching mechanisms to control the download.  
 Failure to remove the large files will result in your package being deprecated
-and removed from Bioconductor. 
+and removed from Bioconductor. You have until Bioc 3.23 release (normally late
+March/April) to make required changes. 
 
 Some helpful links:
 https://zenodo.org/
 https://www.bioconductor.org/packages/release/bioc/html/ExperimentHub.html
 https://www.bioconductor.org/packages/release/bioc/html/BiocFileCache.html
+https://contributions.bioconductor.org/git-version-control.html#remove-large-data-files-and-clean-git-tree
 
 If there are any concerns or further questions please reach out to
 maintainer@bioconductor.org
