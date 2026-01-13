@@ -349,3 +349,13 @@ scafari	147.01 MB	input/mart_export_grch37_p13.txt
 # Repositories with large blobs:
 SwathXtend
 scafari
+
+
+
+
+
+git rev-list --objects --all |
+      git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
+      grep '^blob' |
+      awk -v repo= '$3 > 100000000 {printf "%s\t%.2f MB\t%s\n", repo, $3/1024/1024, $4}' |
+      sort -k2 -nrsophie.wind@uni-muenster.de

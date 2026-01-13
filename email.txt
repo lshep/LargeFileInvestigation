@@ -16,6 +16,20 @@ repository. Anyone that has previously checked out the git.bioconductor.org
 respository should either reclone or would need to perform a `git reset --hard`
 followed by a `git pull` against the Bioconductor remote and branch.
 
+
+You can see the files by either running
+
+git rev-list --objects --all |
+      git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
+      grep '^blob' |
+      awk -v repo= '$3 > 100000000 {printf "%s\t%.2f MB\t%s\n", repo, $3/1024/1024, $4}' |
+      sort -k2 -nrsophie.wind@uni-muenster.de
+
+and/or
+
+find . -type f -size +100M
+
+
 We will begin to clean repositories Novemeber 1st and will contact you when we
 have performed the action on your package. If there are any concerns or further
 questions  please reach out to maintainer@bioconductor.org before November 1.
@@ -43,6 +57,25 @@ https://zenodo.org/
 https://www.bioconductor.org/packages/release/bioc/html/ExperimentHub.html
 https://www.bioconductor.org/packages/release/bioc/html/BiocFileCache.html
 https://contributions.bioconductor.org/git-version-control.html#remove-large-data-files-and-clean-git-tree
+
+
+You can see the files by either running
+
+git rev-list --objects --all |
+      git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
+      grep '^blob' |
+      awk -v repo= '$3 > 100000000 {printf "%s\t%.2f MB\t%s\n", repo, $3/1024/1024, $4}' |
+      sort -k2 -nrsophie.wind@uni-muenster.de
+
+and/or
+
+find . -type f -size +100M
+
+
+After large files are removed you will need to reach out to the Bioconductor
+Core Team to assist with the reset on git.bioconductor.org as it will require a
+force push that only the Core Team has access to do.
+
 
 If there are any concerns or further questions please reach out to
 maintainer@bioconductor.org
