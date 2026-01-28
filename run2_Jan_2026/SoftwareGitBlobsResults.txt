@@ -1,0 +1,20 @@
+# Scanning for repos with large Git packfiles but no working tree files >100MB...
+
+CatsCradle	407.16 MB	(426941655 bytes)	.git/objects/pack/pack-fd9e33aadf78e88e890acf3954182eba7dad4fe9.pack
+GenomicPlot	258.96 MB	(271541074 bytes)	.git/objects/pack/pack-c5922e1ae0a871a19dcefe55929b3b17f04de6cc.pack
+MOFA2	161.47 MB	(169310407 bytes)	.git/objects/pack/pack-7740bd2c8bbb01da3513537a06aed890b8bdadbe.pack
+bambu	561.22 MB	(588486875 bytes)	.git/objects/pack/pack-1c03ae01f9b65cb7cc9ef85b605d2953e6f7d054.pack
+cytofQC	134.07 MB	(140580348 bytes)	.git/objects/pack/pack-208ebf8c0a70f76936413bbd1dbcd7948df6cb99.pack
+mobileRNA	256.72 MB	(269192856 bytes)	.git/objects/pack/pack-9b3b1b507f517950c63e7fc48f48cbb145adc3d7.pack
+scFeatures	212.84 MB	(223183595 bytes)	.git/objects/pack/pack-099403b751db10e0a42d3677142ee2156719e5e7.pack
+spatialHeatmap	525.91 MB	(551454407 bytes)	.git/objects/pack/pack-9317532fa91d2029b0b12aba5a07d02aa338b602.pack
+
+# Repositories with orphaned large Git packfiles (no large working tree files):
+CatsCradle
+GenomicPlot
+MOFA2
+bambu
+cytofQC
+mobileRNA
+scFeatures
+spatialHeatmap

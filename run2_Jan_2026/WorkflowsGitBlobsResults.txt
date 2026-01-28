@@ -1,0 +1,3 @@
+# Scanning for repos with large Git packfiles but no working tree files >100MB...
+
+No repos with orphaned large Git packfiles found.

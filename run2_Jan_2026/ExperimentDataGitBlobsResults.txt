@@ -1,0 +1,34 @@
+# Scanning for repos with large Git packfiles but no working tree files >100MB...
+
+AssessORFData	144.56 MB	(151581819 bytes)	.git/objects/pack/pack-be422e24ebf33ad52904027c7a3a5729d3ff5109.pack
+brgedata	261.98 MB	(274703712 bytes)	.git/objects/pack/pack-b9abd9d2aafa2f4cff3a6a577590e5d9b55143b1.pack
+chipenrich.data	270.01 MB	(283123368 bytes)	.git/objects/pack/pack-6a1cac7f977e5d8f2703f48b07333615647580ac.pack
+curatedOvarianData	380.07 MB	(398532421 bytes)	.git/objects/pack/pack-70d17328f2412954baf88561740815d3fe048cd5.pack
+macrophage	493.79 MB	(517773964 bytes)	.git/objects/pack/pack-0fbd9ced2ba6bb6c4d8c862595b3766f19f45a39.pack
+mammaPrintData	213.81 MB	(224196656 bytes)	.git/objects/pack/pack-7a5677acb362a3519b5affcd1d73c224dbb8ee20.pack
+mtbls2	183.78 MB	(192704196 bytes)	.git/objects/pack/pack-eb4d3ea6c484e79d914fe00c9b9a40f700d3d19e.pack
+oct4	187.22 MB	(196313335 bytes)	.git/objects/pack/pack-8f448bd1c3bd696d8f5ab7bd57f8e0d7fe709bac.pack
+pRolocdata	191.17 MB	(200456735 bytes)	.git/objects/pack/pack-4e5ef377c2fe7bcffb40a5a249b979bef0fa7eb5.pack
+rcellminerData	338.19 MB	(354614842 bytes)	.git/objects/pack/pack-0afda46314b6b01b94b3d1c879d64d75b82075ba.pack
+RNAseqData.HNRNPC.bam.chr14	332.85 MB	(349016697 bytes)	.git/objects/pack/pack-89dda86c58050d1f13556a03a76cfd46eb0cd41e.pack
+systemPipeRdata	262.09 MB	(274822772 bytes)	.git/objects/pack/pack-da7b5cef33414b58dfe9530ff02013a13da369f2.pack
+topdownrdata	100.87 MB	(105774845 bytes)	.git/objects/pack/pack-415e72c760ca01377567e065ea74a939dea98d56.pack
+tximportData	362.62 MB	(380238709 bytes)	.git/objects/pack/pack-ca58e4be770130aaa415879fec8be2f01dae62b4.pack
+WES.1KG.WUGSC	373.21 MB	(391341090 bytes)	.git/objects/pack/pack-533252c5799e5c7690f46517c2eb9dec2b71931e.pack
+
+# Repositories with orphaned large Git packfiles (no large working tree files):
+AssessORFData
+brgedata
+chipenrich.data
+curatedOvarianData
+macrophage
+mammaPrintData
+mtbls2
+oct4
+pRolocdata
+rcellminerData
+RNAseqData.HNRNPC.bam.chr14
+systemPipeRdata
+topdownrdata
+tximportData
+WES.1KG.WUGSC

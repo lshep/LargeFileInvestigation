@@ -13,11 +13,11 @@ Bioconductor Core Team members can perform on git.bioconductor.org.
 
 Using a `git -force` will invalidate any local checkouts of the
 repository. Anyone that has previously checked out the git.bioconductor.org
-respository should either reclone or would need to perform a `git reset --hard`
+repository should either reclone or would need to perform a `git reset --hard`
 followed by a `git pull` against the Bioconductor remote and branch.
 
 
-You can see the files by either running
+You can see the files in question by either running
 
 git rev-list --objects --all |
       git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
@@ -30,13 +30,22 @@ and/or
 find . -type f -size +100M
 
 
-We will begin to clean repositories Novemeber 1st and will contact you when we
+We will begin to clean repositories November 1st and will contact you when we
 have performed the action on your package. If there are any concerns or further
 questions  please reach out to maintainer@bioconductor.org before November 1.
 
 Thank you.
 
+Please see the following list of packages, in which you have been identified as maintainer of at least one package:
 
+
+
+
+
+
+############################
+############################
+############################
 
 
 Dear Package Maintainer,
@@ -50,7 +59,7 @@ means such as hosting on zenodo and using ExperimentHub or BiocFileCache or
 other caching mechanisms to control the download.  
 Failure to remove the large files will result in your package being deprecated
 and removed from Bioconductor. You have until Bioc 3.23 release (normally late
-March/April) to make required changes. 
+March/April) to make required changes.
 
 Some helpful links:
 https://zenodo.org/
@@ -76,8 +85,11 @@ After large files are removed you will need to reach out to the Bioconductor
 Core Team to assist with the reset on git.bioconductor.org as it will require a
 force push that only the Core Team has access to do.
 
-
 If there are any concerns or further questions please reach out to
 maintainer@bioconductor.org
 
 Thank you.
+
+Please see the following list of packages, in which you have been identified as maintainer of at least one package: 
+
+
