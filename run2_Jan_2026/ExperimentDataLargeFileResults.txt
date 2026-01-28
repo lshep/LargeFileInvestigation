@@ -1,0 +1,72 @@
+Affyhgu133aExpr	333.97 MB	(333973300 bytes)	inst/extdata/data.h5
+Affyhgu133Plus2Expr	237.40 MB	(237400952 bytes)	inst/extdata/data.h5
+Affymoe4302Expr	441.34 MB	(441335730 bytes)	inst/extdata/data.h5
+blimaTestingData	102.92 MB	(102915336 bytes)	data/blimatesting.rda
+ccdata	583.65 MB	(583646592 bytes)	data/l1000_es.rda
+ccdata	141.39 MB	(141393824 bytes)	data/net2.rda
+ccdata	141.36 MB	(141363108 bytes)	data/net1.rda
+ChAMPdata	265.76 MB	(265762598 bytes)	data/testDataSet.rda
+ChAMPdata	102.01 MB	(102007398 bytes)	data/EPICSimData.rda
+ChIPXpressData	2912.94 MB	(2912940864 bytes)	inst/extdata/DB_GPL570.bigmemory
+ChIPXpressData	1601.28 MB	(1601278008 bytes)	inst/extdata/DB_GPL1261.bigmemory
+ConnectivityMap	248.17 MB	(248172110 bytes)	data/rankMatrix.RData
+curatedBreastData	296.35 MB	(296350200 bytes)	data/curatedBreastDataExprSetList.rda
+davidTiling	209.75 MB	(209750812 bytes)	data/davidTiling.rda
+Fletcher2013b	154.25 MB	(154249195 bytes)	data/rtni1st.RData
+FlowSorted.Blood.450k	135.71 MB	(135706876 bytes)	data/FlowSorted.Blood.450k.rda
+FlowSorted.CordBlood.450k	232.50 MB	(232496452 bytes)	data/FlowSorted.CordBlood.450k.rda
+FlowSorted.CordBloodNorway.450k	173.49 MB	(173486312 bytes)	data/FlowSorted.CordBloodNorway.450k.rda
+FlowSorted.DLPFC.450k	129.62 MB	(129615280 bytes)	data/FlowSorted.DLPFC.450k.rda
+furrowSeg	252.89 MB	(252888748 bytes)	data/opto.rda
+furrowSeg	112.48 MB	(112477492 bytes)	data/exampleFurrowMovie.rda
+GeuvadisTranscriptExpr	114.34 MB	(114344330 bytes)	inst/extdata/genotypes_CEU_chr19.tsv
+hapmapsnp6	192.06 MB	(192062196 bytes)	data/crlmmResult.rda
+HD2013SGI	441.40 MB	(441404104 bytes)	data/featuresPerWell.rda
+Hiiragi2013	112.25 MB	(112250356 bytes)	data/a.rda
+ListerEtAlBSseq	397.58 MB	(397575597 bytes)	inst/extdata/mc_h1_tabix.txt.gz
+ListerEtAlBSseq	281.36 MB	(281364132 bytes)	inst/extdata/mc_i90_tabix.txt.gz
+MMDiffBamSubset	399.07 MB	(399072930 bytes)	inst/extdata/reads/Input.bam
+MMDiffBamSubset	113.19 MB	(113187947 bytes)	inst/extdata/reads/Resc_2.bam
+msdata	314.97 MB	(314974121 bytes)	inst/proteomics/TMT_Erwinia_1uLSike_Top10HCD_isol2_45stepped_60min_01-20141210.mzML.gz
+msPurityData	502.13 MB	(502128640 bytes)	inst/extdata/library_spectra/library_spectra.db
+pd.atdschip.tiling	223.35 MB	(223346688 bytes)	inst/extdata/pd.atdschip.tiling.sqlite
+RGMQLlib	101.26 MB	(101259358 bytes)	inst/extdata/java/GMQL.jar
+RnBeads.hg38	153.09 MB	(153088715 bytes)	data/probesEPICv2.RData
+RnBeads.hg38	115.73 MB	(115725903 bytes)	data/CpG.RData
+rRDPData	329.45 MB	(329449155 bytes)	inst/extdata/fungalits_unite/genus_wordConditionalProbList.txt
+rRDPData	116.56 MB	(116563405 bytes)	inst/extdata/16srrna/genus_wordConditionalProbList.txt
+Single.mTEC.Transcriptomes	847.67 MB	(847670348 bytes)	data/corMatsNoMarker.RData
+SVM2CRMdata	109.46 MB	(109455031 bytes)	inst/extdata/H3K4me3.sort.txt.bz2
+SVM2CRMdata	101.87 MB	(101870183 bytes)	inst/extdata/H3K4me1.sort.txt.bz2
+
+# Repositories with large blobs:
+Affyhgu133aExpr
+Affyhgu133Plus2Expr
+Affymoe4302Expr
+blimaTestingData
+ccdata
+ChAMPdata
+ChIPXpressData
+ConnectivityMap
+curatedBreastData
+davidTiling
+Fletcher2013b
+FlowSorted.Blood.450k
+FlowSorted.CordBlood.450k
+FlowSorted.CordBloodNorway.450k
+FlowSorted.DLPFC.450k
+furrowSeg
+GeuvadisTranscriptExpr
+hapmapsnp6
+HD2013SGI
+Hiiragi2013
+ListerEtAlBSseq
+MMDiffBamSubset
+msdata
+msPurityData
+pd.atdschip.tiling
+RGMQLlib
+RnBeads.hg38
+rRDPData
+Single.mTEC.Transcriptomes
+SVM2CRMdata

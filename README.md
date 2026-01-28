@@ -1,27 +1,33 @@
-# Large File Investigation
+# Investigate large files in current repositorys
 
-This is aimed to investigate large files in currently active Bioconductor
-repositories that would prevent them from easily transitioning from our custom
-git server to GitHub.
+First attempt in `run1_Oct_2025` directory.
+
+  -  Based on this run, sent emails to packages with actively large files.
+  
+  - Also sent emails to select repos with legacy large files in git history requiring a clean repo reset
 
 
-The repo currently containst the following:
+Second attempt in `run2_Jan_2026` directory
 
-1. **scripts.sh**: 
-   This script contains where commands were run and the command to look for
-   files over 100Mb. It lists sizes and file names, and unique lists of packages
-   for each type of repository (data-experiment, workflow, bioc).  
+  - created a file to run on machines called `find-large-files.sh` that prints
+    out the actively large files. It takes a directory as argument. See below
+    for details. File likely in directory `sandbox` 
 
-2. **packagelist.csv**: 
-   This is a manually created list of the packages and package type from scripts.sh
+    	* Data Experment:  as biocbuild@nebbiolo1 (current devel builder) at
+              /home/biocbuild/bbs-3.23-data-experiment/MEAT0/
+	      
+        * Data Annotation: as biocbuild@nebbiolo1 (current devel builder) at
+          /home/biocbuild/bbs-3.23-data-annotation/MEAT0/
+	  
+	* Workflow: as biocbuild@bbscentral1 (current devel builder) at
+          /media/volume/bbs1/biocbuild/bbs-3.23-workflows/MEAT0/
 
-3. **addRanks.R**: 
-   This reads in packagelist.csv, retrieves downloads statistics using
-   BiocPkgTools and adds overall unique downloads over the years to evaluate
-   download trends.
+        * Software: as biocbuild@bbscentral1 (current devel builder) at
+          /media/volume/bbs1/biocbuild/bbs-3.23-bioc/MEAT0/
 
-4. **packages_filled_stats.csv**:
-   Table results of addRanks.R 
+        * Books: as biocbuild@bbscentral1 (current devel builder) at
+          /media/volume/bbs1/biocbuild/bbs-3.23-books/MEAT0/
 
-5. **investigation.Rdata**: 
-   RData saved image at end of addRanks.R
+This will get currently active large files NOT the files that need to be
+cleaned of git history
+
