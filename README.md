@@ -1,13 +1,17 @@
 # Investigate large files in current repositorys
 
-First attempt in `run1_Oct_2025` directory.
+## First attempt in `run1_Oct_2025` directory.
+
+Original Run
 
   -  Based on this run, sent emails to packages with actively large files.
   
   - Also sent emails to select repos with legacy large files in git history requiring a clean repo reset
 
 
-Second attempt in `run2_Jan_2026` directory
+## Second attempt in `run2_Jan_2026` directory
+
+Run scripts to create lists of packages
 
   - created a file to run on machines called `find-large-files.sh` that prints
     out the actively large files. It takes a directory as argument. See below
@@ -34,6 +38,11 @@ Second attempt in `run2_Jan_2026` directory
         * Books: as biocbuild@bbscentral1 (current devel builder) at
           /media/volume/bbs1/biocbuild/bbs-3.23-books/MEAT0/
 
+After running the following, copied results locally.  Manually created
+`AllPackagesWithActiveLargeFiles.txt` and `AllPackagesWithGitBlobs.txt` of just
+package lists. 
 
+Run `mapEmails.R` that uses the Bioconductor package maintainer app to map the
+package lists to maintainer emails.
 
-  
+Manual add any information from the first run into the saved csv files.

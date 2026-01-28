@@ -1,0 +1,25 @@
+"package","name","email","email_status","notes"
+"brgedata","Dolors Pelegri-Siso","dolors.pelegri@isglobal.org","valid",NA
+"chipenrich.data","Kai Wang","wangdaha@umich.edu","valid",NA
+"curatedOvarianData","Levi Waldron","lwaldron.research@gmail.com","valid",NA
+"macrophage","Michael Love","michaelisaiahlove@gmail.com","valid",NA
+"mammaPrintData","Luigi Marchionni","marchion@jhu.edu","valid",NA
+"mtbls2","Steffen Neumann","sneumann@ipb-halle.de","valid",NA
+"oct4","Michael Love","michaelisaiahlove@gmail.com","valid",NA
+"pRolocdata","Lisa Breckels","lms79@cam.ac.uk","valid",NA
+"rcellminerData","Fathi Elloumi","fathi.elloumi@nih.gov","valid",NA
+"rcellminerData","Augustin Luna","lunaa@cbio.mskcc.org","valid",NA
+"rcellminerData","Vinodh Rajapakse","vinodh.rajapakse@nih.gov","valid",NA
+"RNAseqData.HNRNPC.bam.chr14","Hervé Pagès","hpages.on.github@gmail.com","valid",NA
+"systemPipeRdata","Thomas Girke","thomas.girke@ucr.edu","valid",NA
+"topdownrdata","Sebastian Gibb","mail@sebastiangibb.de","valid",NA
+"tximportData","Michael Love","michaelisaiahlove@gmail.com","valid",NA
+"WES.1KG.WUGSC","Yuchao Jiang","yuchaoj@wharton.upenn.edu","suppressed",NA
+"CatsCradle","Michael Shapiro","michael.shapiro@crick.ac.uk","valid",NA
+"GenomicPlot","Shuye Pu","shuye2009@gmail.com","valid",NA
+"MOFA2","Ricard Argelaguet","ricard.argelaguet@gmail.com","valid",NA
+"bambu","Ying Chen","chen_ying@gis.a-star.edu.sg","valid",NA
+"cytofQC","Jill Lundell","jflundell@gmail.com","valid",NA
+"mobileRNA","Katie Jeynes-Cupper","kejc@illinois.edu","valid",NA
+"scFeatures","Yue Cao","yue.cao@sydney.edu.au","valid",NA
+"spatialHeatmap","Jianhai Zhang","jzhan067@ucr.edu","valid",NA
