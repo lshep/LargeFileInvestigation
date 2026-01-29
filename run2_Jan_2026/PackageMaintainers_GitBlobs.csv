@@ -1,5 +1,5 @@
 package,name,email,email_status,notes
-AssessORFData,Nicholas Cooley,npc19@pitt.edu,valid,NA
+AssessORFData,Nicholas Cooley,npc19@pitt.edu,valid,npcooley@gmail.com Nicholas.Cooley@ul.ie
 brgedata,Dolors Pelegri-Siso,dolors.pelegri@isglobal.org,valid,NA
 chipenrich.data,Kai Wang,wangdaha@umich.edu,valid,NA
 curatedOvarianData,Levi Waldron,lwaldron.research@gmail.com,valid,NA
@@ -9,7 +9,7 @@ mtbls2,Steffen Neumann,sneumann@ipb-halle.de,valid,NA
 oct4,Michael Love,michaelisaiahlove@gmail.com,valid,NA
 pRolocdata,Lisa Breckels,lms79@cam.ac.uk,valid,NA
 rcellminerData,Fathi Elloumi,fathi.elloumi@nih.gov,valid,NA
-rcellminerData,Augustin Luna,lunaa@cbio.mskcc.org,valid,NA
+rcellminerData,Augustin Luna,lunaa@cbio.mskcc.org,valid,augustin.luna@nih.gov
 rcellminerData,Vinodh Rajapakse,vinodh.rajapakse@nih.gov,valid,bounced on first run
 RNAseqData.HNRNPC.bam.chr14,Hervé Pagès,hpages.on.github@gmail.com,valid,NA
 systemPipeRdata,Thomas Girke,thomas.girke@ucr.edu,valid,NA

@@ -46,3 +46,7 @@ Run `mapEmails.R` that uses the Bioconductor package maintainer app to map the
 package lists to maintainer emails.
 
 Manual add any information from the first run into the saved csv files.
+
+Added `addRevDeps.R` to get an analysis of reverse dependencies for packages
+with large files to get a sense of affect of deprecation/removal.  Created
+separate file with info `PackageMaintainers_LargeFiles_WithRevDeps.csv`
