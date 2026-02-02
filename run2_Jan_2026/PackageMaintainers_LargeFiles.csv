@@ -5,28 +5,28 @@ Affymoe4302Expr,Zhicheng Ji,zji4@jhu.edu,Initialized,NA
 ccdata,Alex Pickering,alexvpickering@gmail.com,valid,NA
 ChAMPdata,Yuan Tian,champ450k@gmail.com,valid,NA
 ChIPXpressData,George Wu,gewu@jhsph.edu,suppressed,bounced on first run alternate email georgetwu@gmail.com
-ConnectivityMap,Paul Shannon,pshannon@systemsbiology.org,suppressed,bounced on first run alternate email paul.thurmond.shannon@gmail.com
+ConnectivityMap,Paul Shannon,pshannon@systemsbiology.org,suppressed,bounced on first and second run alternate email paul.thurmond.shannon@gmail.com
 curatedBreastData,Katie Planey,katie.planey@gmail.com,Initialized,NA
 davidTiling,Wolfgang Huber,huber@ebi.ac.uk,bounced,alternative emails  wolfgang.huber@embl.org wolfgang.huber@embl.de
 Fletcher2013b,Mauro Castro,mauro.a.castro@gmail.com,valid,responded to deprecate as will not change
 FlowSorted.Blood.450k,Andrew E Jaffe,andrew.jaffe@libd.org,suppressed,NA
 FlowSorted.CordBlood.450k,Shan V. Andrews,sandre17@jhu.edu,Initialized,NA
 FlowSorted.CordBloodNorway.450k,kristina gervin,kristina.gervin@medisin.uio.no,valid,NA
-FlowSorted.DLPFC.450k,Andrew E Jaffe,andrew.jaffe@libd.org,suppressed,bounced on first run
+FlowSorted.DLPFC.450k,Andrew E Jaffe,andrew.jaffe@libd.org,suppressed,bounced on first and second run
 furrowSeg,Joseph Barry,joseph.barry@embl.de,Initialized,NA
-GeuvadisTranscriptExpr,Malgorzata Nowicka,gosia.nowicka@uzh.ch,suppressed,bounced on first run alternate email gosia.nowicka.uzh@gmail.com
-hapmapsnp6,Benilton Carvalho,Benilton.Carvalho@cancer.org.uk,suppressed,bounced on first run alternate emails benilton@unicamp.br beniltoncarvalho@gmail.com
+GeuvadisTranscriptExpr,Malgorzata Nowicka,gosia.nowicka@uzh.ch,suppressed,bounced on first and second  run alternate email gosia.nowicka.uzh@gmail.com
+hapmapsnp6,Benilton Carvalho,Benilton.Carvalho@cancer.org.uk,suppressed,bounced on first and second  run alternate emails benilton@unicamp.br beniltoncarvalho@gmail.com
 HD2013SGI,Mike Smith,mike.smith@embl.de,Initialized,NA
 Hiiragi2013,Wolfgang Huber,wolfgang.huber@embl.org,valid,NA
-ListerEtAlBSseq,Mattia Furlan,mattia.furlan@iit.it,suppressed,bounced on first run
-MMDiffBamSubset,Gabriele Schweikert,G.Schweikert@ed.ac.uk,suppressed,bounced on first run
+ListerEtAlBSseq,Mattia Furlan,mattia.furlan@iit.it,suppressed,bounced on first and second  run
+MMDiffBamSubset,Gabriele Schweikert,G.Schweikert@ed.ac.uk,suppressed,bounced on first and second run
 msdata,Laurent Gatto,laurent.gatto@uclouvain.be,valid,NA
 msdata,Steffen Neumann,sneumann@ipb-halle.de,valid,NA
 msPurityData,Thomas N. Lawson,thomas.nigel.lawson@gmail.com,valid,NA
-pd.atdschip.tiling,Kristof De Beuf,kristof.debeuf@ugent.be,suppressed,bounced on first run
+pd.atdschip.tiling,Kristof De Beuf,kristof.debeuf@ugent.be,suppressed,bounced on first and second run
 RnBeads.hg38,RnBeads Team,team@rnbeads.org,valid,NA
 rRDPData,Michael Hahsler,mhahsler@lyle.smu.edu,valid,NA
 Single.mTEC.Transcriptomes,Alejandro Reyes,alejandro.reyes.ds@gmail.com,Initialized,NA
-SVM2CRMdata,Guidantonio Malagoli Tagliazucchi,guidantonio.malagolitagliazucchi@unimore.it,suppressed,bounced on first run
-SwathXtend,Jemma Wu,jwu@proteome.org.au,Initialized,bounced on first run
+SVM2CRMdata,Guidantonio Malagoli Tagliazucchi,guidantonio.malagolitagliazucchi@unimore.it,suppressed,bounced on first and second run
+SwathXtend,Jemma Wu,jwu@proteome.org.au,Initialized,bounced on first and second run
 methylationArrayAnalysis,Jovana Maksimovic,jovana.maksimovic@mcri.edu.au,valid,NA
