@@ -8,7 +8,7 @@ ChIPXpressData,George Wu,gewu@jhsph.edu,Bounced
 ConnectivityMap,Paul Shannon,pshannon@systemsbiology.org,Bounced  
 curatedBreastData,Katie Planey,katie.planey@gmail.com,
 davidTiling,Wolfgang Huber,huber@ebi.ac.uk,Bounced  
-Fletcher2013b,Mauro Castro,mauro.a.castro@gmail.com,Responded to deprecate
+Fletcher2013b,Mauro Castro,mauro.a.castro@gmail.com,Responded to Deprecate
 FlowSorted.Blood.450k,Andrew E Jaffe,andrew.jaffe@libd.org,
 FlowSorted.CordBlood.450k,Shan V. Andrews,sandre17@jhu.edu,
 FlowSorted.CordBloodNorway.450k,kristina gervin,kristina.gervin@medisin.uio.no,
@@ -20,12 +20,12 @@ HD2013SGI,Mike Smith,mike.smith@embl.de,
 Hiiragi2013,Wolfgang Huber,wolfgang.huber@embl.org,
 ListerEtAlBSseq,Mattia Furlan,mattia.furlan@iit.it,Bounced  
 MMDiffBamSubset,Gabriele Schweikert,G.Schweikert@ed.ac.uk,Bounced  
-msdata,Laurent Gatto,laurent.gatto@uclouvain.be,
-msdata,Steffen Neumann,sneumann@ipb-halle.de,
+msdata,Laurent Gatto,laurent.gatto@uclouvain.be,Deprecate with Replacement
+msdata,Steffen Neumann,sneumann@ipb-halle.de,Deprecate with Replacement
 msPurityData,Thomas N. Lawson,thomas.nigel.lawson@gmail.com,
 pd.atdschip.tiling,Kristof De Beuf,kristof.debeuf@ugent.be,Bounced  
 RnBeads.hg38,RnBeads Team,team@rnbeads.org,
-rRDPData,Michael Hahsler,mhahsler@lyle.smu.edu,
+rRDPData,Michael Hahsler,mhahsler@lyle.smu.edu,Responded to Deprecate
 Single.mTEC.Transcriptomes,Alejandro Reyes,alejandro.reyes.ds@gmail.com,
 SVM2CRMdata,Guidantonio Malagoli Tagliazucchi,guidantonio.malagolitagliazucchi@unimore.it,Bounced  
 SwathXtend,Jemma Wu,jwu@proteome.org.au,Bounced  
