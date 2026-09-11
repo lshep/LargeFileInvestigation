@@ -1,0 +1,23 @@
+sudo apt install git-filter-repo
+
+export PATH="$HOME/.local/bin:$PATH"
+
+git rev-list --objects --all |
+git cat-file --batch-check='%(objecttype) %(objectname) %(objectsize) %(rest)' |
+awk '$1=="blob" && $3>100000000 {print $0}'
+
+
+## if not empty needs cleaning
+
+git filter-repo \
+  --path <change with file path> \
+  --invert-paths \
+  --force
+
+
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+
+git remote add origin git@git.bioconductor.org:packages/<package name>
+
+git push origin devel --force
